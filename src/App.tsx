@@ -51,7 +51,7 @@ body {
 }
 
 .slick-initialized{
-width: 100%;
+width: 120%;
 }
 
 .slick-slide {
