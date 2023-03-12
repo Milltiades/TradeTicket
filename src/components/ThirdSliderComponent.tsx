@@ -19,7 +19,29 @@ export default function ThirdSliderComponent() {
   
   const settings = {
     slidesToShow: 4,
-    
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  
+      
   }
 
   return (
