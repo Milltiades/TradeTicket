@@ -290,7 +290,9 @@ const PopularDiv = styled.div`
 const ContentDiv = styled.div`
   display: flex;
   flex-direction: column;
-  width: 320px;
+  /* min-width: 320px; */
+
+  
  
   
 `;
@@ -298,7 +300,8 @@ const ContentDiv = styled.div`
 const Content = styled.div<any>`
   
   min-width: 320px;
- width: 250px;
+  width: 22.2%;
+ 
   height: 200px;
   background-image: url(${(props) => props.image});
   background-repeat: no-repeat;

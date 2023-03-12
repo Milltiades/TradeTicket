@@ -52,10 +52,13 @@ body {
 
 .slick-initialized{
 width: 120%;
+@media (width > 1740px) {
+  width: 100%;
+}
 }
 
 .slick-slide {
-  width: 100%;
+  width: 50%;
   padding: 0;
 }
 
